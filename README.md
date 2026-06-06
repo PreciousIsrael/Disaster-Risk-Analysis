@@ -1,2 +1,1 @@
-# Disaster-Risk-Analysis
-Developed a disaster risk assessment for Ethiopia at ADM1 level in Python to compute 95th percentile flood hazard for 35 years of CHIRPS data, derived exposure from population and livestock count and applied MPI to represent vulnerability to calculate the risk index and produced spatially classified maps
+Spatial disaster risk assessment for Ethiopia (ADM1) in Python. Downloads CHIRPS p05 (1991–2025) to compute P95 daily rainfall, WorldPop 2025 population, GLW4 cattle density, and MPI poverty scores per region. Rescales all indicators 1–10 into a composite risk index with choropleth maps.
